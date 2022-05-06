@@ -11,7 +11,7 @@ spark-submmit <script.py path> "crimes.csv path" "offense_codes path" "output fi
 ## In my case the following code worked:
 
 ```
-spark-submit ~/desktop/pyspark_homework.py  "desktop/crime.csv" "desktop/offense_codes.csv" "path/to/output_folder/" 
+spark-submit ~/desktop/homework_pyspark.py  "desktop/crime.csv" "desktop/offense_codes.csv" "path/to/output_folder/" 
 ```
 
 But I was only able to run the script from ~/ directory
